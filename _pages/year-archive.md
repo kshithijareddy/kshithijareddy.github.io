@@ -1,6 +1,6 @@
 ---
-title: "Posts by Year"
-permalink: /posts/
-layout: posts
+title: "CV"
+permalink: /cv/
+layout: cv
 author_profile: true
 ---
