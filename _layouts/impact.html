@@ -1,0 +1,62 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<!-- {% assign tags_max = 0 %}
+{% for tag in site.tags %}
+  {% if tag[1].size > tags_max %}
+    {% assign tags_max = tag[1].size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+  {% for i in (1..tags_max) reversed %}
+    {% for tag in site.tags %}
+      {% if tag[1].size == i %}
+        <li>
+          <a href="#{{ tag[0] | slugify }}">
+            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% for i in (1..tags_max) reversed %}
+  {% for tag in site.tags %}
+    {% if tag[1].size == i %}
+      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+        <div class="entries-{{ entries_layout }}">
+          {% for post in tag.last %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %} -->
+
+<div class="impact">
+  <a class="flex-container impact-img" href="https://www.youthkiawaaz.com/2020/10/finding-our-way-through-bengaluru-driving-uptake-of-public-transport/" target="_blank">
+    <img src="/assets/images/youth.png" width="40%">
+    <p style="margin-left: 40px;">
+      <strong>Finding Our Way Through Bengaluru: Driving Uptake Of Public Transport</strong>
+    </br>
+      <span class="impact-content">The ‘Silicon Valley of India’, Bengaluru, with its sprawling tech parks, leafy gardens and metropolitan culture has a lot to offer to tourists, job-seekers and natives alike. However, their experience in the city is often marred by infamous traffic jams and broken footpaths. The traffic jams in Bengaluru, which the city’s residents have come to woefully accept, are primarily a result of poor uptake of public transport.</span>
+    </p>
+
+  </a>
+
+  <blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">Meet Bengaluru’s Mobility Champions! These are 12 passionate residents of the city who will work over 45 days to build support for mobility solutions among policymakers and get <a href="https://twitter.com/hashtag/BengaluruMoving?src=hash&amp;ref_src=twsrc%5Etfw">#BengaluruMoving</a>. <a href="https://twitter.com/WRIIndia?ref_src=twsrc%5Etfw">@WRIIndia</a> <a href="https://twitter.com/ylacofficial?ref_src=twsrc%5Etfw">@ylacofficial</a> and <a href="https://twitter.com/LetMeBreathe_In?ref_src=twsrc%5Etfw">@LetMeBreathe_in</a> <a href="https://t.co/KfEqTTmUAN">pic.twitter.com/KfEqTTmUAN</a></p>
+    &mdash; WRI Cities India (@WRICitiesIndia) <a href="https://twitter.com/WRICitiesIndia/status/1287285848317165568?ref_src=twsrc%5Etfw">July 26, 2020</a>
+  </blockquote> 
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+  </script>
+</div>
