@@ -1,6 +1,7 @@
 .impact {
     margin-top: 40px;
     width: 150%;
+    margin-bottom: 40px;
 }
   
 .impact-img {
@@ -12,6 +13,8 @@
     border-style: solid;
     border-color: rgba(201, 197, 197, 0.406);
     margin-bottom: 60px;
+    padding-right: 10px;
+    align-items: center;
 }
 
 .impact-img:visited {
@@ -20,4 +23,5 @@
 
 .impact-content {
     font-size: 17px;
+    margin-bottom: 50px;
 }
