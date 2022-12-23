@@ -5,7 +5,7 @@ main:
     url: /projects/
   - title: "Impact"
     url: /impact/
-  - title: "Blog"
-    url: /about/
-  - title: "Personal"
-    url: /about/
+  # - title: "Blog"
+  #   url: /about/
+  # - title: "Personal"
+  #   url: /about/
