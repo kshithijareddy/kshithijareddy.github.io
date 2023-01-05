@@ -121,3 +121,9 @@ social:
   links:
     - "https://twitter.com/theSudhamshow"
     - "https://www.linkedin.com/in/sudhamshu-m-hosamane"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-253173454-1"
+    anonymize_ip: false # default
