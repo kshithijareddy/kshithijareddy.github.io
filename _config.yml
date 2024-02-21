@@ -16,7 +16,7 @@
 title: Sudhamshu Hosamane
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Graduate Student at the University of Chicago studying Masters in Computational Social Science.
+  Doctoral Student at the Rutgers University.
   This is my personal website, blog and portfolio.
 twitter_username: theSudhamshow
 github_username: sudhamshow
@@ -60,8 +60,8 @@ plugins:
 author:
   name   : "Sudhamshu Hosamane"
   avatar : "/assets/images/bio-photo.jpg"
-  location : "Chicago, IL, USA"
-  bio    : "Graduate student at the University of Chicago"
+  location : "New Brunswick, NJ, USA"
+  bio    : "Doctoral student at Rutgers University"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -71,7 +71,7 @@ author:
       url: "https://github.com/sudhamshow"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sudhamshu@uchicago.edu"
+      url: "mailto:sudhamshu.hosamane@rutgers.edu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/theSudhamshow"
