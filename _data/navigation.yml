@@ -5,7 +5,7 @@ main:
     url: /projects/
   - title: "Impact"
     url: /impact/
-  - title: "UI/UX Portfolio"
-    url: /portfolio/
+  # - title: "UI/UX Portfolio"
+  #   url: /portfolio/
   # - title: "Personal"
   #   url: /about/
